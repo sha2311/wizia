@@ -14,16 +14,20 @@ import footerLogo from "../assets/Logo.png";
 
 export const assets = {
   logo,
-  amd,
   arrow,
-  backHub,
-  cableLabs,
-  dbs,
-  easyEuro,
   group1,
   group2,
   group3,
   group9,
   home,
   footerLogo,
-};
+}
+
+export const brandData = [
+    { image: backHub},
+    { image: cableLabs},
+    { image: dbs},
+    { image: easyEuro},
+    { image: amd}
+]
+
