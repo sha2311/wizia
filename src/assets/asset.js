@@ -11,7 +11,8 @@ import group2 from "../assets/Group2.png";
 import group3 from "../assets/group3.png";
 import home from "../assets/Home.png";
 import footerLogo from "../assets/Logo.png";
-import bgTrain from "../assets/bgTrain.svg";
+import bgTrain from "../assets/bgTrain.png";
+import checkCircle from "../assets/Group.png";
 
 
 export const assets = {
@@ -23,7 +24,8 @@ export const assets = {
   group9,
   home,
   footerLogo,
-  bgTrain
+  bgTrain,
+  
 }
 
 export const brandData = [
@@ -52,4 +54,23 @@ export const controlData = [
   },
   
 
+]
+
+export const trainMap =[
+  {
+    image: checkCircle,
+    text: "Quick to ramp"
+  },
+  {
+    image: checkCircle,
+    text: "Easy to optimize"
+  },
+  {
+    image: checkCircle,
+    text: "Quick to scale up"
+  },
+  {
+    image: checkCircle,
+    text: "Works with all your existing tools"
+  },
 ]
