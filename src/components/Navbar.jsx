@@ -3,13 +3,15 @@ import { assets } from "../assets/asset";
 
 
  function Navmenu() {
+
+ 
   return (
    <section className="md:h-[84px] md:max-w-[1440px] max-w-[375px] h-[68px]">
      <Navbar position="static" className="bg-transparent border-b border-[#183A40] ">
       <NavbarBrand>
       <img className="cursor-pointer" src={assets.logo} alt="" />
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex lg:mr-36 gap-5" justify="center">
+      <NavbarContent className="hidden md:flex lg:mr-36 gap-5" justify="center">
         <NavbarItem>
           <Link className="font-work text-[#FFFFFF] text-base " href="#">
           About Us
@@ -33,7 +35,7 @@ import { assets } from "../assets/asset";
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} className="bg-primary rounded-full font-work font-medium text-sm" href="#" variant="flat">
+          <Button as={Link} className="bg-primary rounded-full font-work font-medium text-sm hidden md:flex" href="#" variant="flat">
           Book a Demo
           </Button>
         </NavbarItem>
