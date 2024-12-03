@@ -74,3 +74,25 @@ export const trainMap =[
     text: "Works with all your existing tools"
   },
 ]
+
+
+export const sliderData =[
+  {
+      image:group9,
+      text:"Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      title:"John Doe",
+      des:"Chief Strategy Officer @ Company"
+  },
+  {
+      image:group9,
+      text:"Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      title:"Eshan Ahmed",
+      des:"Chief Strategy Officer @ Company"
+  },
+  {
+      image:group9,
+      text:"Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      title:"Tutul",
+      des:"Chief Strategy Officer @ Company"
+  },
+]
