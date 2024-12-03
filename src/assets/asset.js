@@ -13,6 +13,7 @@ import home from "../assets/Home.png";
 import footerLogo from "../assets/Logo.png";
 import bgTrain from "../assets/bgTrain.png";
 import checkCircle from "../assets/Group.png";
+import improv from "../assets/improv.png";
 
 
 export const assets = {
@@ -25,6 +26,7 @@ export const assets = {
   home,
   footerLogo,
   bgTrain,
+  improv
   
 }
 
