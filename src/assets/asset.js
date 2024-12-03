@@ -11,6 +11,8 @@ import group2 from "../assets/Group2.png";
 import group3 from "../assets/group3.png";
 import home from "../assets/Home.png";
 import footerLogo from "../assets/Logo.png";
+import bgTrain from "../assets/bgTrain.svg";
+
 
 export const assets = {
   logo,
@@ -21,6 +23,7 @@ export const assets = {
   group9,
   home,
   footerLogo,
+  bgTrain
 }
 
 export const brandData = [
@@ -31,3 +34,22 @@ export const brandData = [
     { image: amd}
 ]
 
+export const controlData = [
+
+  { image: group1,
+    heading:"You’re in Control",
+    des:"aiDRs operate based on your rules. You guide the machine, the aiDRs execute the work."
+  },
+  
+  { image: group2,
+    heading:"Infinitely Scalable",
+    des:"Train an aiDR on a patch. When you are happy with the results, scale it effortlessly."
+  },
+  
+  { image: group3,
+    heading:"Incredibly Flexible",
+    des:"Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time."
+  },
+  
+
+]

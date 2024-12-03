@@ -14,8 +14,10 @@ export default {
           primary: "#0FF1F6",
           secondary: "#002228"
       },
-    fontFamily: {work: ' "Work Sans", sans-serif'},
-    fontFamily: {montserrat: '"Montserrat", sans-serif'},
+    fontFamily: {
+      montserrat: '"Montserrat", sans-serif',
+      work: ' "Work Sans", sans-serif',
+    },
     },
   },
   darkMode: "class",
