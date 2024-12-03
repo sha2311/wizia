@@ -6,6 +6,7 @@ import Control from './components/Control'
 import Train from './components/Train'
 import Sliders from './components/Sliders'
 import Improvments from './Improvments'
+import Embrace from './Embrace'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <Train/>
       <Sliders/>
       <Improvments/>
+      <Embrace/>
     </div>
   )
 }
