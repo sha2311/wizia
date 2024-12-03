@@ -2,7 +2,7 @@ import React from 'react'
 import { controlData } from '../assets/asset'
 const Control = () => {
   return (
-    <section className='w-full max-w-[1440px] h-[494px] '>
+    <section className='w-full max-w-[1440px] md:h-[494px] h-[685px] mb-44 md:mb-0 '>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8 py-10 md:py-24 px-10 md:px-20 items-center '>
             {controlData.map((value, index) => (
                    <div className='text-white ' key={index}>
