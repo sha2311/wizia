@@ -9,7 +9,7 @@ const Improvments = () => {
         <h3 className='text-[32px] font-medium italic text-[#0FF1F6]'>Let us handle the rest.</h3>
         <p className='text-[20px] font-work font-light  '>Keep your reps “in the air” -- out in the field and on the phone where they can build relationships.</p>
       </div>
-      <div className='flex items-center gap-2 px-20 w-2/3 mt-10'>
+      <div className='grid md:grid-cols-3 grid-cols-1  gap-2 px-20 w-2/3 mt-10'>
         {improvData.map((value, index) => (
             <div key={index} >
                <div className='text-white font-montserrat flex flex-col justify-between'>

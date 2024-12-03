@@ -7,6 +7,7 @@ import Train from './components/Train'
 import Sliders from './components/Sliders'
 import Improvments from './Improvments'
 import Embrace from './Embrace'
+import Footer from './Footer'
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
       <Sliders/>
       <Improvments/>
       <Embrace/>
+      <Footer/>
     </div>
   )
 }

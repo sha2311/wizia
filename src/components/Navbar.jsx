@@ -4,7 +4,8 @@ import { assets } from "../assets/asset";
 
  function Navmenu() {
   return (
-    <Navbar position="static" className="bg-transparent border-b border-[#183A40] ">
+   <section className="md:h-[84px] md:max-w-[1440px] max-w-[375px] h-[68px]">
+     <Navbar position="static" className="bg-transparent border-b border-[#183A40] ">
       <NavbarBrand>
       <img className="cursor-pointer" src={assets.logo} alt="" />
       </NavbarBrand>
@@ -43,6 +44,7 @@ import { assets } from "../assets/asset";
         </NavbarItem>
       </NavbarContent>
     </Navbar>
+   </section>
   );
 }
 export default Navmenu
