@@ -98,3 +98,18 @@ export const sliderData =[
       des:"Chief Strategy Officer @ Company"
   },
 ]
+
+export const improvData = [
+  {
+    text: "32%",
+    des: "Improvement in Open Rates"
+  },
+  {
+    text: "75%",
+    des: "Improvement in Ramp Time"
+  },
+  {
+    text: "35%",
+    des: "Improvement in Meetings Booked"
+  },
+]
